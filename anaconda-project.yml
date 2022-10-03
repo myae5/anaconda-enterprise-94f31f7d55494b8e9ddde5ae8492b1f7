@@ -1,0 +1,18 @@
+name: HvPlot Notebook
+description: A simple notebook with an interactive HvPlot plot.
+
+commands:
+  notebook:
+    notebook: hvplot.ipynb
+
+packages:
+  - python=3.7
+  - notebook=6.0
+  - pandas=0.24
+  - hvplot=0.4
+
+platforms:
+  - linux-64
+
+env_specs:
+  anaconda201908_py37: {}
